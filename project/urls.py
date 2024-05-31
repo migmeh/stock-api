@@ -40,9 +40,9 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/products', views.create_product),
-    path('api/inventories/product/<int:product_id>', views.update_inventory),
-    path('api/orders', views.create_order),
+    path('api/products', views.create_product, name='create_product'),
+    path('api/inventories/product/<int:product_id>', views.update_inventory, name='update_inventory'),
+    path('api/orders', views.create_order, name='create_order'),
 
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),

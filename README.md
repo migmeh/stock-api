@@ -34,7 +34,7 @@ Para probar este endpoint, enviarías una solicitud POST a /api/orders con un cu
 {
   "productos": [
     {
-      "id": 1,
+      "id": 2,
       "cantidad": 2
     },
     {
@@ -45,7 +45,7 @@ Para probar este endpoint, enviarías una solicitud POST a /api/orders con un cu
 }
 ```
 
-###Documentacion
+### Documentacion
 
 
 para acceder a ala documentacion de swagger
