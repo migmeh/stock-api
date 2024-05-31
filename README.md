@@ -1,4 +1,4 @@
-# Pokedex
+# stock-api
 
 ## Usar POST Para el endpoint /api/products
 ```
