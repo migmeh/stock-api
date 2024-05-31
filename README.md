@@ -45,3 +45,16 @@ Para probar este endpoint, enviarías una solicitud POST a /api/orders con un cu
 }
 ```
 
+###Documentacion
+
+
+para acceder a ala documentacion de swagger
+
+```
+http://127.0.0.1:7000/swagger/
+```
+para acceder a ala documentacion de redoc
+
+```
+http://127.0.0.1:7000/redoc/
+```
